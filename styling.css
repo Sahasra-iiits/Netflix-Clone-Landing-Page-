@@ -1,0 +1,333 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#main {
+  height: 95vh;
+  width: full;
+  background-image: url(assets/img12.jpg);
+  position: relative;
+  background-size: cover;
+  z-index: 0;
+}
+#main::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: -1;
+}
+
+#nav {
+  height: 80px;
+  width: full;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 150px 0 120px;
+}
+#corner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#nav > img {
+  height: 100px;
+}
+#corner > select {
+  width: 120px;
+  height: 30px;
+  margin-right: 13px;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  font-size: 1rem;
+}
+#corner > button {
+  height: 30px;
+  width: 70px;
+  font-size: 0.9rem;
+}
+.middle {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+.middle > h1 {
+  width: 500px;
+  height: 140px;
+  font-size: 55px;
+  text-align: center;
+}
+.stat1 {
+  font-size: 1.3rem;
+  margin-bottom: 15px;
+}
+.stat2 {
+  font-size: 1.05rem;
+  margin-bottom: 10px;
+}
+.field {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.field > input {
+  height: 50px;
+  width: 350px;
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+  border: 1px solid white;
+  padding-left: 10px;
+  background: rgba(0, 0, 0, 0.8);
+}
+.field > button {
+  height: 50px;
+  width: 200px;
+  font-size: 1.4rem;
+}
+.btn {
+  color: white;
+  background-color: red;
+  border: none;
+  border-radius: 4px;
+}
+.btn:hover {
+  background-color: brown;
+}
+.main2 {
+  background-color: black;
+  color: white;
+  padding: 40px 120px 40px 120px;
+}
+.headings {
+  font-size: 30px;
+}
+.curve {
+  background-color: black;
+  width: full;
+  height: 80px;
+}
+.curve > div {
+  border-radius: 50%;
+  height: 80px;
+  border-top: 4px solid red;
+  background: radial-gradient(
+      50% 500% at 50% -420%,
+      rgba(64, 97, 231, 0.4) 80%,
+      rgba(0, 0, 0, 0.1) 100%
+    ),
+    black;
+}
+.common {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  margin: 5px 20px 60px 0px;
+  gap: 30px;
+}
+.trending {
+  overflow-x: scroll;
+}
+.common > div > img {
+  height: 250px;
+}
+.common > div > img:hover {
+  transform: scale(1.05);
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 250px;
+  width: 400px;
+  padding: 20px;
+  border-radius: 15px;
+  background: linear-gradient(to bottom right, #1c1f4a, #0d0c1b, #d22730);
+}
+.head {
+  font-size: 1.7rem;
+  margin-bottom: 10px;
+}
+.head2 {
+  font-size: 1.1rem;
+  color: gray;
+}
+.box > i {
+  color: white;
+  font-size: 40px;
+  align-self: flex-end;
+  box-shadow: -15px -15px 90px #d22730;
+  background-color: transparent;
+}
+.faqs {
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.faq {
+  padding: 20px;
+  font-size: 1.3rem;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90px;
+  width: 1200px;
+  border: none;
+  background-color: rgb(48, 47, 47);
+}
+.end {
+  background-color: black;
+  height: 20vh;
+}
+.stats {
+  background-color: black;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 1.3rem;
+  padding: 50px 100px 40px 120px;
+}
+.footer {
+  padding-left: 120px;
+  background-color: black;
+  display: flex;
+  align-content: space-between;
+  height: 100px;
+  flex-wrap: wrap;
+  padding-bottom: 30px;
+}
+.footer > a {
+  color: rgba(255, 255, 255, 0.7);
+  width: 22%;
+  margin-bottom: 15px;
+}
+.stat3 {
+  font-size: 1.03rem;
+  padding-bottom: 20vh;
+}
+@media ((max-width: 1200px) and (min-width: 951px)) {
+  .boxes {
+    flex-wrap: wrap;
+    padding: 0px;
+  }
+  .box {
+    width: 40%;
+    height: 150px;
+  }
+  .faqs {
+    width: 100%;
+  }
+  .faq {
+    margin-right: 20px;
+    width: 95%;
+  }
+}
+@media (max-width: 950px) {
+  .boxes {
+    flex-direction: column;
+    padding-bottom: 5px;
+  }
+  .box {
+    width: 100%;
+    height: 150px;
+  }
+  .main2,
+  .stats,
+  .footer {
+    padding: 40px;
+  }
+  #nav {
+    padding: 0px 20px 0px 20px;
+  }
+  #nav > img {
+    height: 60px;
+  }
+  .faqs {
+    width: 100%;
+    padding: 10px;
+  }
+  .faq {
+    margin-right: 15px;
+    width: 95%;
+    height: 70px;
+    font-size: 1rem;
+  }
+  .middle > h1 {
+    font-size: 40px;
+  }
+  .trending > div > img {
+    height: 180px;
+  }
+  .headings {
+    font-size: 25px;
+  }
+}
+@media (max-width: 590px) {
+  .field {
+    flex-direction: column;
+  }
+  .middle > h1 {
+    font-size: 30px;
+  }
+  .footer {
+    height: 150px;
+  }
+  .footer > a {
+    width: 40%;
+  }
+  .head {
+    font-size: 1.4rem;
+  }
+  .head2 {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 500px) {
+  .footer > a {
+    width: 100%;
+  }
+  .footer {
+    height: 500px;
+  }
+  .middle {
+    height: 70vh;
+  }
+  .middle > h1 {
+    width: 300px;
+    height: 90px;
+    font-size: 30px;
+    text-align: center;
+  }
+  .stat1 {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+  }
+  .stat2 {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    padding-left: 20px;
+  }
+  .field > input {
+    height: 45px;
+    width: 300px;
+    font-size: 15px;
+    padding-left: 10px;
+  }
+  .field > button {
+    height: 45px;
+    width: 150px;
+    font-size: 1.2rem;
+  }
+  .end {
+    height: 20vh;
+    padding-bottom: 40px;
+  }
+  .main2,
+  .stats,
+  .footer {
+    padding: 10px;
+  }
+}
