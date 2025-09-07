@@ -25,8 +25,11 @@ A **Netflix landing page clone** built with **HTML & CSS** (and a touch of JavaS
 _(Add 2–3 screenshots of your website here)_
 
 Example:  
-![Homepage Screenshot](link-to-your-screenshot.png)  
-![Responsive View](link-to-your-screenshot.png)
+![Homepage Screenshot](https://github.com/Sahasra-iiits/Netflix-Clone-Landing-Page-/blob/383ecbfac4a6b585721a856b5091d93975918fa9/screenshots/sc1.png)  
+![Screenshot](https://github.com/Sahasra-iiits/Netflix-Clone-Landing-Page-/blob/383ecbfac4a6b585721a856b5091d93975918fa9/screenshots/sc2.png)
+![Screenshot](https://github.com/Sahasra-iiits/Netflix-Clone-Landing-Page-/blob/383ecbfac4a6b585721a856b5091d93975918fa9/screenshots/sc3.png)
+![Screenshot](https://github.com/Sahasra-iiits/Netflix-Clone-Landing-Page-/blob/383ecbfac4a6b585721a856b5091d93975918fa9/screenshots/sc4.png)
+![Screenshot](https://github.com/Sahasra-iiits/Netflix-Clone-Landing-Page-/blob/383ecbfac4a6b585721a856b5091d93975918fa9/screenshots/sc5.png)
 
 ---
 
