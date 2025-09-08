@@ -30,14 +30,6 @@ A **Netflix landing page clone** built with **HTML & CSS** (and a touch of JavaS
 
 ---
 
-## 📹 Demo
-
-👉 [Live Demo on GitHub Pages](your-deployment-link) _(recommended to deploy)_  
-or  
-👉 [Demo Video](your-video-link)
-
----
-
 ## 📂 Installation
 
 1. Clone the repository:
